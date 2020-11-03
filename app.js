@@ -5,10 +5,10 @@ const exphbs = require('express-handlebars');
 
 const app = express();
 
+const port = process.env.PORT || 3000;
+
 const calculationRouter = require('./routes/calculation');
 const siteRouter = require('./routes/site');
-
-const port = 3000;
 
 //app.use(morgan('combined'));
 app.use(express.static(path.join(__dirname, 'public')));
