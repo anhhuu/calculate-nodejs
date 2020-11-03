@@ -1,0 +1,28 @@
+.row {
+    margin-top: 20px;
+}
+
+.calc-form {
+    margin: 100px;
+    margin-left: 20%;
+}
+
+.radio-check {
+    margin: 20px;
+    font-weight: 450;
+}
+
+.calculate-button {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.noti {
+    margin-top: 20px;
+}
+
+.noti p {
+    color: rgb(94, 0, 0);
+    margin: 10px;
+    font-weight: 500;
+}
